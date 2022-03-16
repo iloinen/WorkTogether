@@ -87,8 +87,8 @@ public class NAndras {
 
         int sum = 0;
 
-        for (int i = ???; i <= ???; i++) {
-            sum += start +end;
+        for (int i = start; i <= end; i++) {
+            sum += i;
         }
 
         System.out.println(sum); */

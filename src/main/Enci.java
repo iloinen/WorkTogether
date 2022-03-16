@@ -102,7 +102,6 @@ public class Enci {
        */
 
 
-
         // 6. feladat ---------------------------------------------------------------------------------
         /* TODO
             Állapítsd meg a from és a to változók értéke közötti számokról, hogy oszthatóak-e 3-mal, 5-tel vagy mindkettővel!
@@ -131,7 +130,7 @@ public class Enci {
         //7.es feladat
         //generálj random számot 0 és 10 között!
 
-        double random1 = Math.random(); //random >=0.0. && random1 <1.0
+       /* double random1 = Math.random(); //random >=0.0. && random1 <1.0
         int randomInt = (int) (Math.random()* 11); //randomInt >=0 &&rnadomIN < 11
         // ha a tizet is értékelje akkor 11-et kell irni ide
 
@@ -147,6 +146,54 @@ public class Enci {
             }
         }
         System.out.println("ok");
+
+
+        */
+
+
+        // 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+         */
+
+
+        int random3 = (int) (Math.random() * (7 - 1) + 1);
+        System.out.println(random3);
+        for (int i = 0; i <1000; i++) {
+            if (random3 < 1 || random3 > 6) {
+                System.out.println("rossz szám! " + random3);
+            }
+        }
+            System.out.println("ok");
+
+            // ide jöhet a megoldásod :)
+
+            // 10. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!
+         */
+
+            int[] randomCounter = new int[6];
+
+            for (int i = 0; i < 100; i++) {
+                int random = (int) (Math.random()*6 + 1);
+                randomCounter [random -1] += 1;
+            }
+            for (int i =0; i< randomCounter.length; i++) {
+                System.out.println((1+1) + "generated " + randomCounter[1] + "times");
+            }
+            // írd ki a képernyőre, hogy melyik számot hányszor generálta a program
+
         }
     }
+
+
 

@@ -158,7 +158,7 @@ public class Attila {
                 - generált-e a program 6-ot
          */
 
-        for (int i = 0; i < 1000; i++) {
+        /*for (int i = 0; i < 1000; i++) {
             int randomNumber = (int) (Math.random() * 6 + 1);
 
             if (randomNumber < 1 || randomNumber > 6) {
@@ -170,7 +170,7 @@ public class Attila {
             }
         }
 
-        System.out.println("ok");
+        System.out.println("ok");*/
 
 
 
@@ -182,9 +182,11 @@ public class Attila {
          */
 
         int[] randomCounter = new int[6];
-        int randomNumber2 = (int) (Math.random() * 6 + 1);
+
 
         for (int i = 0; i < 100; i++) {
+            int randomNumber2 = (int) (Math.random() * 6 + 1);
+
             if (randomNumber2 == 1) {
                 randomCounter[0] += 1;
             } else if (randomNumber2 == 2) {

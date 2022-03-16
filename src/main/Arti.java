@@ -147,7 +147,9 @@ public class Arti {
             A végén írd ki az eredményt a képernyőre!
          */
 
-        int[] randomCounter = new int[6];
+     /*
+      int[] randomCounter = new int[6];
+      */
 
         for (int i = 0; i < 100; i++) {
             int randomInt=(int) Math.random()+6+1;

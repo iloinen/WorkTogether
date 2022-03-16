@@ -101,17 +101,17 @@ public class barni {
 
         int from = 10;
         int to = 33;
-        int index = from;
 
-        while ( index <= to) {
-            if (index % 5 == 0 && index % 3 == 0) {
+
+        while ( from <= to) {
+            if (from % 5 == 0 && from % 3 == 0) {
                 System.out.println("fizzbuzz");
-            } else if (index % 3 == 0) {
+            } else if (from % 3 == 0) {
                 System.out.println("fizz");
-            } else if (index % 5 == 0) {
+            } else if (from % 5 == 0) {
                 System.out.println("buzz");
             }
-            index++;
+            from++;
         }
 
     }

@@ -102,21 +102,61 @@ public class Arti {
                 Ha 3-mal és 5-tel is osztható, akkor pedig azt, hogy "fizzbuzz"
          */
 
-        int from = 10;
+    /*   int from = 10;
         int to = 33;
 
-        /*
         while (from<to) {
-            from++
+            from++;
           int  number;
-            number = 3%==0;
-            number= 5%==0;
-            number = 3%==0 && 5%==0;
-            System.out.println("");
+           if (number = 3 % ==0){
+            System.out.println("fizz");
+            } if(from%3==0){
+            System.out.println("buzz");
+            }else if (number = 3%==0 && 5%==0;){
+            System.out.println("fizzbuzz");
+
         }
 */
 
+        // 7.feladat
+      /*
+        double random1=Math.random();
+        int randomInt=(int) (Math.random());
+        */
 
+// 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+         */
+        /*
+        int randomInt =(int) (Math.random()*6+1);
+        System.out.println(randomInt);
+*/
+        // ide jöhet a megoldásod :)
+
+        // 10. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!
+         */
+
+        int[] randomCounter = new int[6];
+
+        for (int i = 0; i < 100; i++) {
+            int randomInt=(int) Math.random()+6+1;
+            if (randomInt==1)
+                System.out.println("");
+
+        }
+
+        // írd ki a képernyőre, hogy melyik számot hányszor generálta a program
 
     }
 }

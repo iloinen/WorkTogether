@@ -32,7 +32,7 @@ public class Gyula {
 /*
         int a = 5;
         int b = 7;
-        int c = a < b == ? b < a : a = b;
+        int c = a > b ? a : b;
 
         System.out.println(a + " és " + b + " közül a nagyobbik szám: " + c);
 */
@@ -87,7 +87,7 @@ public class Gyula {
 
         int sum = 0;
 
-        for (int i = start + end; i <= sum; i++) {
+        for (int i = start; i <= end; i++) {
             sum += i;
         }
 

@@ -106,8 +106,8 @@ public class Arti {
         int to = 33;
 
         /*
-        while () {
-
+        while (from<to) {
+            from++
           int  number;
             number = 3%==0;
             number= 5%==0;

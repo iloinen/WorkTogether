@@ -111,7 +111,7 @@ public class Zita {
                 System.out.println("fizz");
             } else if (to % 5 ==0) {
                 System.out.println("buzz");
-                from ++;
+
 
             }
 

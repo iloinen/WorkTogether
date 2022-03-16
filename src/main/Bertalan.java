@@ -103,7 +103,7 @@ public class Bertalan {
        /* int from = 10;
         int to = 33;
 
-        while (from < 33) {
+        while (from <= to) {
             from ++;
             if (from%3==0){
                 System.out.println("fizz");
@@ -112,7 +112,7 @@ public class Bertalan {
             }else if (from%15==0){
                 System.out.println("fizzbuzz");
             }
-        }*/
-
+        }
+*/
     }
 }

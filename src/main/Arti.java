@@ -1,5 +1,5 @@
 package main;
 
 public class Arti {
-    //hahó most frissül?
+    //hahó most frissül?.
 }

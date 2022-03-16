@@ -102,20 +102,27 @@ public class Arti {
                 Ha 3-mal és 5-tel is osztható, akkor pedig azt, hogy "fizzbuzz"
          */
 
-        int from = 10;
+    /*   int from = 10;
         int to = 33;
 
-        /*
         while (from<to) {
-            from++
+            from++;
           int  number;
-            number = 3%==0;
-            number= 5%==0;
-            number = 3%==0 && 5%==0;
-            System.out.println("");
+           if (number = 3 % ==0){
+            System.out.println("fizz");
+            } if(from%3==0){
+            System.out.println("buzz");
+            }else if (number = 3%==0 && 5%==0;){
+            System.out.println("fizzbuzz");
+
         }
 */
 
+        // 7.feladat
+      /*
+        double random1=Math.random();
+        int randomInt=(int) (Math.random());
+        */
 
 
     }

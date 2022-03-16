@@ -85,7 +85,7 @@ public class Zsombor {
         int sum = 0;
 
         for (int i = start; i <= end; i++) {
-            sum += ???;
+            sum += i;
         }
 
         System.out.println(sum);*/
@@ -103,9 +103,82 @@ public class Zsombor {
         int from = 10;
         int to = 33;
 
-        while (???) {
-            ???
+        while (from <= to) {
+            if (from % 3 == 0 && from % 5 == 0) {
+                System.out.println("fizzbuzz");
+            } else if (from % 3 == 0) {
+                System.out.println("fizz");
+            } else if (from % 5 == 0) {
+                System.out.println("buzz");
+            }
+            from++;
         }
         */
+
+        // random szám generálás
+        double random1 = Math.random();
+        int randomInt = (int) (Math.random() * 10); // randomInt >=0 && randomInt <10, eredmeny = 1,2,3,4,5,6,7,8,9
+
+        // 5 és 10 között
+
+        //   int random2 = (int) (Math.random() * 11 + 5);
+
+     /*   for (int i = 0; i < 11; i++) {
+
+            int random2 = (int) (Math.random() * (11 - 5) + 5);
+
+            if (random2 < 5 || random2 > 10){
+                System.out.println("rossz szám!: " +random2);
+            }
+        }
+        System.out.println("Ok");*/
+
+        // 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+         */
+
+     /*   for (int i = 0; i < 10; i++) {
+            int random2 = (int) (Math.random() * (7 - 1) + 1);
+
+            if (random2 < 1 || random2 > 6) {
+                System.out.println("rossz szám! " + random2);
+
+            }else if (random2 = 2){
+                System.out.println("az Érték: "+ random2);
+            }else if (random2 = 7 && random2 > 5){
+                System.out.println("Az érték: "+random2);
+            }
+        }
+
+        System.out.println("ok");*/
+
+        // 10. feladat ---------------------------------------------------------------------------------
+        /*TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!*/
+        int szamlalo = 0;
+
+        for (int i = 0; i < 100; i++) {
+            int random2 = (int) (Math.random() * (7 - 1) + 1);
+
+            if (random2 == 6) {
+                szamlalo++;
+                System.out.println(" 6-ot ennyiszer adott: " + szamlalo);
+
+            } else if (random2 == 1) {
+                szamlalo++;
+                System.out.println("1-et ennyiszer adott: " + szamlalo);
+            }
+
+
+        }
     }
 }

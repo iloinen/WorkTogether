@@ -94,7 +94,7 @@ public class Task {
 
         // 6. feladat ---------------------------------------------------------------------------------
         /* TODO
-            Állapítsd meg a from és a to változók értéke közötti számokról, hogy oszthatóak-e 3-mal, 5-tel vagy mindkettővel!
+            Állapítsd meg a from ésj a to változók értéke közötti számokról, hogy oszthatóak-e 3-mal, 5-tel vagy mindkettővel!
             (A from és a to értékét is vizsgáld!)
                 Ha az aktuális szám osztható 3-mal, akkor írd ki a képernyőre, hogy "fizz"
                 Ha osztható 5-tel, akkor azt írd ki, hogy "buzz"

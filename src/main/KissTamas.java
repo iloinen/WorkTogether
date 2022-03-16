@@ -138,5 +138,51 @@ public class KissTamas {
         }
         System.out.println("Ok!");
 
+        // 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+         */
+
+        int x = 0;
+        int y = 0;
+        for (int i = 0; i < 10; i++) {
+            int r1 = (int) (Math.random() * 6 + 1);
+            System.out.println(r1);
+            if (r1 < 1 || r1 > 7) {
+                System.out.println("Rossz szám!" + r1);
+            }
+            if (r1 == 1){
+                x += 1;
+            } else if (r1 == 6){
+                y += 1;
+            }
+        }
+        System.out.println("minimum = " + x);
+        System.out.println("maximum = " + y);
+
+        // 10. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!
+         */
+
+        int[] randomCounter = new int[6];
+
+        for (int i = 0; i < 100; i++) {
+            int r1 = (int) (Math.random() * 6 + 1);
+            randomCounter[r1 -1] += 1;
+        }
+
+        for (int i = 0; i < randomCounter.length; i++) {
+            System.out.println("A(z) " + i + " számot " + randomCounter[i] + "x generálta.");
+        }
+
     }
 }

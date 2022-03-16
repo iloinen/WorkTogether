@@ -29,12 +29,14 @@ public class Enci {
         /* TODO
             c értéke legyen a és b közül a nagyobb szám
          */
-
+/*
         int a = 5;
         int b = 7;
         int c = (a > b) ? a : b;
 
         System.out.println(a + " és " + b + " közül a nagyobbik szám: " + c);
+
+ */
 
 
         // 3. feladat ---------------------------------------------------------------------------------
@@ -44,7 +46,7 @@ public class Enci {
                 Ha nem negatív, akkor a result nevű változó értéke legyen: "nem negatív".
             (A nulla és a nála nagyobb számok nem negatívok.)
          */
-
+/*
         int n = 0;
         String result;
 
@@ -56,6 +58,8 @@ public class Enci {
 
         System.out.println("A(z) " + n + " szám " + result);
 
+ */
+
 
         // 4. feladat ---------------------------------------------------------------------------------
         /* TODO
@@ -65,9 +69,9 @@ public class Enci {
                 Ha 3-mal és 5-tel is osztható, akkor pedig azt, hogy "fizzbuzz"
          */
 
-        int number = 15;
+    /*    int number = 15;
 
-        if (number % 5 == 0 && number % 3 == 0) {
+        if (number % 3 == 0 && number % 5 == 0) {
             System.out.println("fizzbuzz");
         } else if (number % 3 == 0) {
             System.out.println("fizz");
@@ -76,22 +80,27 @@ public class Enci {
         }
 
 
+     */
+
         // 5. feladat ---------------------------------------------------------------------------------
         /* TODO
             Add össze a számokat a start és az end változók értéke között! (A start és az end értékét is add hozzá az összeghez.)
             Az eredményt írd ki a képernyőre!
          */
 
-        int start = 5;
+      /*  int start = 5;
         int end = 10;
 
         int sum = 0;
 
         for (int i = start; i <= end; i++) {
-            sum += start + end;
+            sum += i;
         }
 
         System.out.println(sum);
+
+       */
+
 
 
         // 6. feladat ---------------------------------------------------------------------------------
@@ -106,17 +115,38 @@ public class Enci {
        /* int from = 10;
         int to = 33;
         int szam;
-        while (szam = from && szam >= to) {
-            if (szam % 5 == 0 && szam % 3 == 0) {
+        wwhile (from <= to) {
+            if (from % 3 == 0 && from % 5 == 0) {
                 System.out.println("fizzbuzz");
-            } else if (szam % 3 == 0) {
+            } else if (from % 3 == 0) {
                 System.out.println("fizz");
-            } else (szam % 5 == 0) {
+            } else if (from % 5 == 0) {
                 System.out.println("buzz");
+            }
+            from++;
             }
 
 */
 
+        //7.es feladat
+        //generálj random számot 0 és 10 között!
+
+        double random1 = Math.random(); //random >=0.0. && random1 <1.0
+        int randomInt = (int) (Math.random()* 11); //randomInt >=0 &&rnadomIN < 11
+        // ha a tizet is értékelje akkor 11-et kell irni ide
+
+        //8as feladat
+        //generalj random szamot 5 és 10 között
+        for (int i = 0; i <1000; i++){
+            int random2 = (int) (Math.random() * (11 - 5)+ 5);
+            System.out.println(random2);
+
+            if (random2 < 5 || random2 >10){
+                System.out.println("rossz szám! " + random2);
+
+            }
+        }
+        System.out.println("ok");
         }
     }
 

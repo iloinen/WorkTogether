@@ -1,8 +1,9 @@
 package main;
 
-public class Bence {
+public class Botond {
+
     public static void main(String[] args) {
-     /* TODO
+        /* TODO
             Az alábbi feladatok félkész megoldása a feladat leírása alatti blokk-kommentben található.
             Kommentezd vissza a feladatokat (egyesével), és egészítsd ki a megoldást!
             A ??? helyére írd a megfelelő kódot. A programkód többi részét ne írd át!
@@ -15,22 +16,23 @@ public class Bence {
             z értéke legyen x és y összege
          */
 
-        int x = 5;
+        /*int x = 5;
         int y = 7;
         int z = x + y;
 
-        System.out.println(x + " + " + y + " = " + z);
+        System.out.println(x + " + " + y + " = " + z);*/
 
 
         // 2. feladat ---------------------------------------------------------------------------------
         /* TODO
             c értéke legyen a és b közül a nagyobb szám
          */
-        int a = 5;
+
+        /*int a = 5;
         int b = 7;
         int c = a > b ? a : b;
 
-        System.out.println(a + " és " + b + " közül a nagyobbik szám: " + c);
+        System.out.println(a + " és " + b + " közül a nagyobbik szám: " + c);*/
 
 
         // 3. feladat ---------------------------------------------------------------------------------
@@ -41,16 +43,16 @@ public class Bence {
             (A nulla és a nála nagyobb számok nem negatívok.)
          */
 
-        int n = 0;
+        /*int n = 0;
         String result;
 
-        if (n<0) {
+        if (n < 0) {
             result = "negatív";
         } else {
             result = "nem negatív";
         }
 
-        System.out.println("A(z) " + x + " szám " + result);
+        System.out.println("A(z) " + n + " szám " + result);*/
 
 
         // 4. feladat ---------------------------------------------------------------------------------
@@ -61,15 +63,15 @@ public class Bence {
                 Ha 3-mal és 5-tel is osztható, akkor pedig azt, hogy "fizzbuzz"
          */
 
-        int number = 15;
+        /*int number = 15;
 
-        if (number % 3 == 0 && number % 5 == 0) {
+        if (number % 15 == 0) {
             System.out.println("fizzbuzz");
         } else if (number % 3 == 0) {
             System.out.println("fizz");
         } else if (number % 5 == 0) {
             System.out.println("buzz");
-        }
+        }*/
 
 
         // 5. feladat ---------------------------------------------------------------------------------
@@ -78,16 +80,16 @@ public class Bence {
             Az eredményt írd ki a képernyőre!
          */
 
-        int start = 5;
+        /*int start = 5;
         int end = 10;
 
         int sum = 0;
 
-        for (int i = 5; i <= 10; i++) {
+        for (int i = start; i <= end; i++) {
             sum += i;
         }
 
-        System.out.println(sum);
+        System.out.println(sum);*/
 
 
         // 6. feladat ---------------------------------------------------------------------------------
@@ -99,20 +101,19 @@ public class Bence {
                 Ha 3-mal és 5-tel is osztható, akkor pedig azt, hogy "fizzbuzz"
          */
 
-        int from = 10;
+        /*int from = 10;
         int to = 33;
 
         while (from <= to) {
-            if (from % 3 == 0 && from % 5 == 0) {
-                System.out.println(from + " fizzbuzz");
-            } else if (from % 3 == 0) {
-                System.out.println(from +" fizz");
-            } else if (from % 5 == 0) {
-                System.out.println(from +" buzz");
-            }
-            from++;
-        }
-
+             if (from % 15 == 0) {
+                System.out.println("fizzbuzz");
+             } else if (from % 3 == 0) {
+                System.out.println("fizz");
+             } else if (from % 5 == 0) {
+            System.out.println("buzz");
+             }
+             from++;
+        }*/
 
     }
 }

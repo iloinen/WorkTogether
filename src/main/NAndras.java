@@ -106,9 +106,17 @@ public class NAndras {
         int from = 10;
         int to = 33;
 
-        while (???) {
-            ???
-        }
-        */
+        int szam;
+        while (szam = from && szam >= to) {
+            if (szam % 5 == 0 && szam % 3 == 0) {
+                System.out.println("fizzbuzz");
+            } else if (szam % 3 == 0) {
+                System.out.println("fizz");
+            } else (szam % 5 == 0) {
+                System.out.println("buzz");
+            }
+
+         */
+
     }
 }

@@ -115,5 +115,28 @@ public class KissTamas {
             from++;
         }
         */
+
+        // 7. feladat ------------------------------------------------------------------------------------
+        //Generálj random számot 0 és 10 között (mindkettő beleértendő)
+        /*
+        double r1 = Math.random(); // 0.0 <= r1 < 1.0
+        int r2 = (int) (Math.random() * 10); // 0,1,2,3,4,5,6,7,8,9
+        int r3 = (int) (Math.random() * 11); // 0,1,2,3,4,5,6,7,8,9,10
+
+        long r4 = (long) (Math.random() * Long.MAX_VALUE);*/
+
+        // 8. feladat ----------------
+        // 5 és 10 közt....
+        int min = 5;
+        int max = 11;
+        for (int i = 0; i < 1000; i++) {
+            int r1 = (int) (Math.random() * (11/*max-min*/-5) + 5/*min*/);
+
+            if (r1 < 5 || r1 > 10) {
+                System.out.println("Rossz szám!" + r1);
+            }
+        }
+        System.out.println("Ok!");
+
     }
 }

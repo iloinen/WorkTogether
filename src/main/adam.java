@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Random;
+
 public class adam {
 
     public static void main(String[] args) {
@@ -115,6 +117,39 @@ public class adam {
             }
             from++;
         }*/
+
+        /*double random = Math.random(); // >=0 && <1
+        int randomInt = (int) (Math.random()); // ez mindíg 0
+        int randomInt10 = (int) (Math.random() * 10); // ez csak max 10 et adna*/
+
+
+        // 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+
+
+        int randomInt = (int) (Math.random() * 6 + 1);*/
+
+
+
+        //
+
+        // 10. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!
+         */
+
+
+
+        // írd ki a képernyőre, hogy melyik számot hányszor generálta a program
 
     }
 }

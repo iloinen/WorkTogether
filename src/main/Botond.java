@@ -114,6 +114,57 @@ public class Botond {
              }
              from++;
         }*/
+        // 9. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            (Tehát a random szám értéke lehet: 1, 2, 3, 4, 5, 6)
+            Ellenőrizd, hogy a szám valóban 1 és 6 közötti-e!
+            (Például úgy, mint az előző feladatnál csináltuk.)
+            Egészítsd ki az ellenőrzést azzal, hogy megnézed:
+                - generált-e a program 1-et
+                - generált-e a program 6-ot
+         */
+        /*int min = 1;
+        int max = 7;
+
+        for (int i = 0; i < 100; i++) {
+            int randi = (int) (Math.random() * (max - min) + min);    // érték tartományt adsz meg
+
+            if (randi < 1 || randi > 6) {
+                System.out.println("rossz szám! " + randi);
+            } else if (randi == 1) {
+                System.out.println("1");
+            } else if (randi == 6) {
+                System.out.println("6");
+            }
+        }*/
+
+        // 10. feladat ---------------------------------------------------------------------------------
+        /* TODO
+            Generálj 100-szor egy random számot 1 és 6 között - beleértendő a két szélső értéket is.
+            Számold meg, hogy melyik számot hányszor generálta a programod!
+            A végén írd ki az eredményt a képernyőre!
+         */
+
+        int min = 1;
+        int max = 7;
+        int egyes = 0;
+        int hatos = 0;
+
+        for (int i = 0; i < 100; i++) {
+            int randi = (int) (Math.random() * (max - min) + min);    // érték tartományt adsz meg
+
+            if (randi < 1 || randi > 6) {
+                System.out.println("rossz szám! " + randi);
+            } else if (randi == 1) {
+                egyes++;
+            } else if (randi == 6) {
+                hatos++;
+            }
+        }
+        System.out.println("Egyesek száma: " + egyes);
+        System.out.println("Hatosok száma: " + hatos);
+
 
     }
 }

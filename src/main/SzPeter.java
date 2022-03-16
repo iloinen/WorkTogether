@@ -103,7 +103,7 @@ public class SzPeter {
         int from = 10;
         int to = 33;
 
-        while (to <= from) {
+        while (from <= to) {
 
             for (int i = from; i <= to; i++) {
 
@@ -114,6 +114,7 @@ public class SzPeter {
                 } else if (from % 5 == 0 && from % 3 != 0) {
                     System.out.println("buzz");
                 }
+                from++;
 
             }
 

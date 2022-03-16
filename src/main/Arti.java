@@ -31,7 +31,7 @@ public class Arti {
        /*
         int a = 5;
         int b = 7;
-        int c = a>b ? b : (a < b ;
+        int c = a > b ? a : b;
 
         System.out.println(a + " és " + b + " közül a nagyobbik szám: " + c);
         */

@@ -82,7 +82,7 @@ public class NAndras {
             Az eredményt írd ki a képernyőre!
          */
 
-        /* int start = 5;
+        int start = 5;
         int end = 10;
 
         int sum = 0;
@@ -91,7 +91,7 @@ public class NAndras {
             sum += i;
         }
 
-        System.out.println(sum); */
+        System.out.println(sum);
 
 
         // 6. feladat ---------------------------------------------------------------------------------
@@ -106,9 +106,17 @@ public class NAndras {
         int from = 10;
         int to = 33;
 
-        while (???) {
-            ???
-        }
-        */
+        int szam;
+        while (szam = from && szam >= to) {
+            if (szam % 5 == 0 && szam % 3 == 0) {
+                System.out.println("fizzbuzz");
+            } else if (szam % 3 == 0) {
+                System.out.println("fizz");
+            } else (szam % 5 == 0) {
+                System.out.println("buzz");
+            }
+
+         */
+
     }
 }
